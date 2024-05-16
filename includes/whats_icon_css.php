@@ -8,6 +8,6 @@ add_action(
 function whats_icon_style() {
     wp_enqueue_style(
         'whats_icon_styles',
-        plugins_url().'/whats_icon/css/whats_icon_css.css'
+        plugins_url().'/whats_icon/css/whats_icon_styles.css'
     );
 }
