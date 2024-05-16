@@ -1,5 +1,6 @@
 <?php
-
+var_dump(!wp_is_mobile() ? 'web' : 'api');
+die();
 
 add_action('wp_enqueue_scripts', 'whats_icon_add_scripts');
 
@@ -20,7 +21,9 @@ function whats_icon_add_scripts()
 
     // Formatação da url com distinção para dispositivos mobile
     $whatsappURL = 'https://';
-    $whatsappURL .= wp_is_mobile() ? 'api' : 'web';
+    // To-do: wp_is_mobile()
+    // $whatsappURL .= wp_is_mobile() ? 'api' : 'web';
+    $whatsappURL .= 'api';
     $whatsappURL .= '.whatsapp.com/send?phone=' . $number . '&text=' . $text;
 
     // Convertendo o trecho de código PHP para uma string JavaScript
