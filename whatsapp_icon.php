@@ -12,5 +12,4 @@ if (!defined('ABSPATH')) {
 
 require_once plugin_dir_path(__FILE__).'includes/whats_icon_settings.php';
 require_once plugin_dir_path(__FILE__).'includes/whats_icon_scripts.php';
-require_once plugin_dir_path(__FILE__).'includes/whats_icon_css.php';
 require_once plugin_dir_path(__FILE__).'includes/whats_icon_shortcode.php';
