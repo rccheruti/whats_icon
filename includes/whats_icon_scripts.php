@@ -1,6 +1,4 @@
 <?php
-var_dump(!wp_is_mobile() ? 'web' : 'api');
-die();
 
 add_action('wp_enqueue_scripts', 'whats_icon_add_scripts');
 
@@ -9,10 +7,17 @@ function whats_icon_add_scripts()
     // Adiciona o script principal
     wp_enqueue_script('whats_icon_js', plugins_url() . '/whats_icon/js/whats_icon_scripts.js', array('jquery'), '1.0', true);
 
+    // Passar variáveis do PHP para o JavaScript
+    wp_localize_script('whats_icon_js', 'whatsIconVars', array(
+        'pluginUrl' => plugins_url() . '/whats_icon'
+    ));
+
     // Adiciona o estilo principal
     wp_enqueue_style('whats_icon_css', plugins_url() . '/whats_icon/css/whats_icon_styles.css');
 
     // Variáveis cadastradas no menu do plugin
+    $ddi = urlencode(get_option('whats_icon_ddi'));
+    $ddd = urlencode(get_option('whats_icon_ddd'));
     $number = urlencode(get_option('whats_icon_number'));
     $text = urlencode(get_option('whats_icon_text'));
     $position = urlencode(get_option('whats_icon_position'));
@@ -24,7 +29,7 @@ function whats_icon_add_scripts()
     // To-do: wp_is_mobile()
     // $whatsappURL .= wp_is_mobile() ? 'api' : 'web';
     $whatsappURL .= 'api';
-    $whatsappURL .= '.whatsapp.com/send?phone=' . $number . '&text=' . $text;
+    $whatsappURL .= '.whatsapp.com/send?phone=+' . $ddi.$ddd.$number . '&text=' . $text;
 
     // Convertendo o trecho de código PHP para uma string JavaScript
     $icon_code = '
