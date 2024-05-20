@@ -1,0 +1,352 @@
+[
+  {
+     "pais":"Brasil",
+     "cidade":"Aracaju",
+     "estado":"Sergipe",
+     "ddd":79
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Bauru",
+     "estado":"São Paulo",
+     "ddd":14
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Belo Horizonte",
+     "estado":"Minas Gerais",
+     "ddd":31
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Belém",
+     "estado":"Pará",
+     "ddd":91
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Boa Vista",
+     "estado":"Roraima",
+     "ddd":95
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Brasília",
+     "estado":"Distrito Federal",
+     "ddd":61
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Cachoeiro de Itapemirim",
+     "estado":"Espírito Santo",
+     "ddd":28
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Campinas",
+     "estado":"São Paulo",
+     "ddd":19
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Campo Grande",
+     "estado":"Mato Grosso do Sul",
+     "ddd":67
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Campos dos Goytacazes",
+     "estado":"Rio de Janeiro",
+     "ddd":22
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Chapecó",
+     "estado":"Santa Catarina",
+     "ddd":49
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Cascavel",
+     "estado":"Paraná",
+     "ddd":45
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Caxias do Sul",
+     "estado":"Rio Grande do Sul",
+     "ddd":54
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Cuiabá",
+     "estado":"Mato Grosso",
+     "ddd":65
+  },
+  {
+     "pais":"Brasil",
+     "cidade":"Curitiba",
+     "estado":"Paraná",
+     "ddd":41
+  },
+  {
+     "cidade":"Divinópolis",
+     "estado":"Minas Gerais",
+     "ddd":37
+  },
+  {
+     "cidade":"Feira de Santana",
+     "estado":"Bahia",
+     "ddd":75
+  },
+  {
+     "cidade":"Florianópolis",
+     "estado":"Santa Catarina",
+     "ddd":48
+  },
+  {
+     "cidade":"Fortaleza",
+     "estado":"Ceará",
+     "ddd":85
+  },
+  {
+     "cidade":"Francisco Beltrão",
+     "estado":"Paraná",
+     "ddd":46
+  },
+  {
+     "cidade":"Goiânia",
+     "estado":"Goiás",
+     "ddd":62
+  },
+  {
+     "cidade":"Governador Valadares",
+     "estado":"Minas Gerais",
+     "ddd":33
+  },
+  {
+     "cidade":"Imperatriz",
+     "estado":"Maranhão",
+     "ddd":99
+  },
+  {
+     "cidade":"Itabuna",
+     "estado":"Bahia",
+     "ddd":73
+  },
+  {
+     "cidade":"João Pessoa",
+     "estado":"Paraíba",
+     "ddd":83
+  },
+  {
+     "cidade":"Joinville",
+     "estado":"Santa Catarina",
+     "ddd":47
+  },
+  {
+     "cidade":"Juazeiro",
+     "estado":"Bahia",
+     "ddd":74
+  },
+  {
+     "cidade":"Juazeiro do Norte",
+     "estado":"Ceará",
+     "ddd":88
+  },
+  {
+     "cidade":"Juiz de Fora",
+     "estado":"Minas Gerais",
+     "ddd":32
+  },
+  {
+     "cidade":"Londrina",
+     "estado":"Paraná",
+     "ddd":43
+  },
+  {
+     "cidade":"Macapá",
+     "estado":"Amapá",
+     "ddd":96
+  },
+  {
+     "cidade":"Maceió",
+     "estado":"Alagoas",
+     "ddd":82
+  },
+  {
+     "cidade":"Manaus",
+     "estado":"Amazonas",
+     "ddd":92
+  },
+  {
+     "cidade":"Marabá",
+     "estado":"Pará",
+     "ddd":94
+  },
+  {
+     "cidade":"Maringá",
+     "estado":"Paraná",
+     "ddd":44
+  },
+  {
+     "cidade":"Montes Claros",
+     "estado":"Minas Gerais",
+     "ddd":38
+  },
+  {
+     "cidade":"Natal",
+     "estado":"Rio Grande do Norte",
+     "ddd":84
+  },
+  {
+     "cidade":"Palmas",
+     "estado":"Tocantins",
+     "ddd":63
+  },
+  {
+     "cidade":"Passos",
+     "estado":"Minas Gerais",
+     "ddd":35
+  },
+  {
+     "cidade":"Pelotas",
+     "estado":"Rio Grande do Sul",
+     "ddd":53
+  },
+  {
+     "cidade":"Petrolina",
+     "estado":"Pernambuco",
+     "ddd":87
+  },
+  {
+     "cidade":"Picos",
+     "estado":"Piauí",
+     "ddd":89
+  },
+  {
+     "cidade":"Ponta Grossa",
+     "estado":"Paraná",
+     "ddd":42
+  },
+  {
+     "cidade":"Porto Alegre",
+     "estado":"Rio Grande do Sul",
+     "ddd":51
+  },
+  {
+     "cidade":"Porto Velho",
+     "estado":"Rondônia",
+     "ddd":69
+  },
+  {
+     "cidade":"Presidente Prudente",
+     "estado":"São Paulo",
+     "ddd":18
+  },
+  {
+     "cidade":"Recife",
+     "estado":"Pernambuco",
+     "ddd":81
+  },
+  {
+     "cidade":"Ribeirão Preto",
+     "estado":"São Paulo",
+     "ddd":16
+  },
+  {
+     "cidade":"Rio Branco",
+     "estado":"Acre",
+     "ddd":68
+  },
+  {
+     "cidade":"Rio de Janeiro",
+     "estado":"Rio de Janeiro",
+     "ddd":21
+  },
+  {
+     "cidade":"Rio Verde",
+     "estado":"Goiás",
+     "ddd":64
+  },
+  {
+     "cidade":"Rondonópolis",
+     "estado":"Mato Grosso",
+     "ddd":66
+  },
+  {
+     "cidade":"Salvador",
+     "estado":"Bahia",
+     "ddd":71
+  },
+  {
+     "cidade":"Santarém",
+     "estado":"Pará",
+     "ddd":93
+  },
+  {
+     "cidade":"Santa Maria",
+     "estado":"Rio Grande do Sul",
+     "ddd":55
+  },
+  {
+     "cidade":"Santos",
+     "estado":"São Paulo",
+     "ddd":13
+  },
+  {
+     "cidade":"São José do Rio Preto",
+     "estado":"São Paulo",
+     "ddd":17
+  },
+  {
+     "cidade":"São José dos Campos",
+     "estado":"São Paulo",
+     "ddd":12
+  },
+  {
+     "cidade":"São Luís",
+     "estado":"Maranhão",
+     "ddd":98
+  },
+  {
+     "cidade":"São Paulo",
+     "estado":"São Paulo",
+     "ddd":11
+  },
+  {
+     "cidade":"Sorocaba",
+     "estado":"São Paulo",
+     "ddd":15
+  },
+  {
+     "cidade":"Tefé",
+     "estado":"Amazonas",
+     "ddd":97
+  },
+  {
+     "cidade":"Teresina",
+     "estado":"Piauí",
+     "ddd":86
+  },
+  {
+     "cidade":"Uberlândia",
+     "estado":"Minas Gerais",
+     "ddd":34
+  },
+  {
+     "cidade":"Vitória",
+     "estado":"Espírito Santo",
+     "ddd":27
+  },
+  {
+     "cidade":"Vitória da Conquista",
+     "estado":"Bahia",
+     "ddd":77
+  },
+  {
+     "cidade":"Volta Redonda",
+     "estado":"Rio de Janeiro",
+     "ddd":24
+  }
+]
